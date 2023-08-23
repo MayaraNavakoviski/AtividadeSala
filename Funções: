@@ -1,0 +1,34 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x
+		leia(x)
+		inteiro y
+		leia(y)
+		inteiro z
+		leia(z)
+		
+		soma(x, y, z)
+
+		real valor
+		leia(valor)
+		
+		converteReal(valor)
+	}
+	 funcao soma(inteiro x, inteiro y, inteiro z){
+	 	escreva("A soma dos parametros informados é " , x+y+z , ". \n")
+	 }
+
+	 funcao converteReal(real valor){
+	 	escreva("O valor informado em euro será de " , valor/5.27 , " e o em dolar será de " , valor/4.85 , ". \n")
+	 }
+	 funcao data (){
+	 	
+	 }
+
+	 funcao embaralhar(cadeia palavra){
+	 	
+	 }
+}
